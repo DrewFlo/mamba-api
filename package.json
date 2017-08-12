@@ -1,0 +1,36 @@
+{
+  "name": "api_experiment",
+  "version": "1.0.0",
+  "description": "attempt to build a react app and call an API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewFlo/mamba-home.git"
+  },
+  "author": "Drew Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewFlo/mamba-home/issues"
+  },
+  "homepage": "https://github.com/DrewFlo/mamba-home#readme",
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
